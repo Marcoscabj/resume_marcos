@@ -53,7 +53,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'project.urls'
-DIR_TEMPLATE=os.path.join(os.path.dirname(BASE_DIR), 'porfolio/template')
+DIR_TEMPLATE=os.path.join(os.path.dirname(BASE_DIR), 'curriculum/template')
 
 TEMPLATES = [
     {
